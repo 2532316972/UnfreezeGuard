@@ -1,0 +1,22 @@
+# 防冻结守护（UnfreezeGuard）—— 源码与构建配置
+
+# Gradle / IDE 产物
+.gradle/
+build/
+app/build/
+.kotlin/
+.idea/
+*.iml
+
+# 本机 SDK 路径（每人不同，禁止提交）
+local.properties
+
+# 杂项
+.DS_Store
+*.log
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 早期 shell 草稿方案（已被 App 取代，不入库）
+unfreeze_guard.sh
